@@ -1,0 +1,648 @@
+    /* @media screen and (min-width: 992px) and (max-width: 1024px) {
+        html {
+            font-size: 50%;
+        }
+        #navbar ul {
+            margin-left: 10rem;
+        }
+        #header {
+            padding: 0 5rem;
+        }
+        #header .header .header-1 {
+            width: 45%;
+        }
+        #header .header .header-1 h1 {
+            font-size: 4.3rem;
+        }
+        #hidden {
+            padding: 0 3rem;
+            height: 30vh;
+        }
+        #how-to {
+            padding: 0 3rem;
+        }
+        #support {
+            padding: 9rem 3rem;
+        }
+        #trusted {
+            padding: 4rem 3rem;
+        }
+        #trusted .trusted .trusted-bottom p {
+            font-size: 1.7rem;
+            width: 80%;
+        }
+        #testi {
+            padding: 10rem 3rem;
+        }
+        #testi .testi .testi-sp .wired h3 {
+            font-size: 3rem;
+        }
+        #testi .testi .testi-sp .fina h3 {
+            font-size: 1.5rem;
+        }
+        #testi .testi .testi-sp .econ h3 {
+            font-size: 1.5rem;
+        }
+        #testi .testi .testi-sp p {
+            font-size: 1.5rem;
+        }
+        #people .people {
+            padding: 8rem;
+        }
+        #people .people .peo {
+            font-size: 4.3rem;
+        }
+        #people .people .people-test .people-test-ej img {
+            width: 75rem;
+            height: 65rem;
+            margin-left: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+        #people .people .people-test .people-test-ej .people-container {
+            margin-left: 33rem;
+            margin-top: -25rem;
+            width: 70rem;
+            height: 50rem;
+        }
+        .circle-1 {
+            top: 582rem;
+            left: 30rem;
+            width: 17rem;
+            height: 17rem;
+        }
+        #people .people .people-trusted {
+            padding: 0;
+        }
+        #people .people .people-trusted .people-trusted-star .people-star-con h4 {
+            font-size: 1.8rem;
+        }
+        #people .people .people-trusted .people-trusted-star .people-star-con p {
+            font-size: 1.6rem;
+        }
+        #trans-curren,
+        #board {
+            padding: 9rem 4rem;
+        }
+        #footer {
+            padding: 4rem;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        html {
+            font-size: 50%;
+        }
+        #header {
+            padding: 0 2rem;
+            height: 200vh;
+        }
+        #navbar ul {
+            margin-left: 0rem;
+        }
+        /* #navbar ul li {
+            padding: 2rem .5rem;
+        } 
+        #header .header {
+            display: block;
+            padding-top: 5rem;
+            margin-left: 10rem;
+        }
+        #header .header .header-1 {
+            width: 50%;
+            text-align: center;
+            margin-left: 18rem;
+        }
+        #header .header .header-1 p {
+            width: 80%;
+            margin-left: 4rem;
+        }
+        #header .header .header-2 {
+            margin-left: 4rem;
+            margin-top: -6rem;
+        }
+        #header .header .header-2 .header-2-btn .form {
+            width: 85rem;
+        }
+        #header .header .header-2 .header-2-btn .form input {
+            width: 83rem;
+        }
+        #header .header .header-1 .star-lock {
+            position: absolute;
+            bottom: -60rem;
+            text-align: center;
+            margin-left: 5rem;
+        }
+        #header .header .header-1 .star-lock .lock {
+            margin-left: 12rem;
+        }
+        #header .header .header-2 .btn-get {
+            width: 90%;
+        }
+        #hidden {
+            padding: 0 5rem;
+        }
+        #hidden .hidden-cont {
+            padding: 0 12rem;
+        }
+        
+        #how-to {
+            padding: 0 5rem;
+        }
+        #how-to .how-to .steps {
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+        }
+        .card {
+            width: 55rem;
+            height: 50rem;
+        }
+        #support {
+            padding: 9rem 4rem;
+        }
+        #trusted {
+            padding: 4rem;
+        }
+        #trusted .trusted .trusted-loc {
+            grid-template-columns: repeat(2, 2fr);
+            text-align: center;
+        }
+        #trusted .trusted .trusted-loc .trusted-loc-all {
+            margin-bottom: 4rem;
+        }
+        #trusted .trusted .trusted-loc .trusted-loc-all .text-trusted {
+            margin-left: 2rem;
+        }
+        #trusted .trusted .trusted-bottom .trustd-bottom-con {
+            grid-template-columns: repeat(3, 2fr);
+            gap: 2rem;
+        }
+        #trusted .trusted .trusted-bottom .trustd-bottom-con>*:last-child,
+        #trusted .trusted .trusted-bottom .trustd-bottom-con>*:nth-child(7) {
+            display: none;
+        }
+        #trusted .trusted .trusted-bottom .trustd-bottom-con .truste-con a {
+            width: 35rem;
+        }
+        #testi {
+            padding: 10rem 2rem;
+        }
+        #testi .testi-sp {
+            display: block;
+        }
+        #testi .testi h3 {
+            font-size: 2.9rem;
+        }
+        #testi .testi .testi-sp .wired {
+            margin-bottom: 4rem;
+        }
+        #testi .testi .testi-sp .fina {
+            margin-bottom: 4rem;
+        }
+        #testi .testi .testi-sp .econ {
+            margin-bottom: 4rem;
+        }
+        #testi .testi .testi-sp .wired h3 {
+            font-size: 4rem
+        }
+        #testi .testi .testi-sp .fina h3 {
+            font-size: 1.5rem
+        }
+        #testi .testi .testi-sp .econ h3 {
+            width: 10%;
+            margin-left: 55rem;
+            padding: 1rem 0;
+        }
+        #testi .testi .testi-sp p {
+            font-size: 1.8rem;
+        }
+        #people .people {
+            padding: 10rem 6rem;
+        }
+        #people .people .people-test .people-test-ej img {
+            width: 75rem;
+            height: 65rem;
+            margin-left: 4rem;
+            position: relative;
+            z-index: 1;
+        }
+        #people .people .people-test .people-test-ej .people-container {
+            margin-left: 35rem;
+            margin-top: -12rem;
+            width: 70rem;
+            height: 30rem;
+            padding: 7rem;
+        }
+        #people .people .people-trusted {
+            padding: 0 2rem;
+        }
+        #people .people .people-trusted .people-trusted-star .people-star-con h4 {
+            font-size: 1.9rem;
+        }
+        #people .people .people-trusted .people-trusted-star .people-star-con p {
+            font-size: 1.7rem;
+        }
+        .circle {
+            top: 420rem;
+            right: 25rem;
+        }
+        .circle-1 {
+            top: 765rem;
+            left: 32rem;
+            width: 17rem;
+            height: 17rem;
+        }
+        #trans-curren {
+            padding: 10rem 4rem;
+            height: 120vh;
+            text-align: center;
+        }
+        #trans-curren .trans-curren {
+            display: block;
+        }
+        #trans-curren .trans-curren .curren-right .main {
+            width: 17rem;
+            height: 21rem;
+        }
+        #trans-curren .trans-curren .curren-left {
+            position: absolute;
+            top: 900rem;
+        }
+        .new {
+            display: none;
+        }
+        #trans-curren .trans-curren .curren-left .curren-left-cont {
+            width: 70%;
+            text-align: center;
+            margin-left: 15rem;
+        }
+        #trans-curren .trans-curren .curren-left .curren-left-cont h2 {
+            font-size: 3.7rem;
+        }
+        #trans-curren .trans-curren .curren-left .curren-left-cont .btn-sup,
+        #trans-curren .trans-curren .curren-left .store .peo-star,
+        #trans-curren .trans-curren .curren-left .store p {
+            display: none;
+        }
+        #trans-curren .trans-curren .curren-left .store {
+            margin-left: 37rem;
+        }
+        #board {
+            padding: 9rem 4rem;
+        }
+        #footer {
+            padding: 4rem;
+        }
+    }
+    
+    @media screen and (min-width: 890px) and (max-width: 919px) {
+        #header .header {
+         
+            margin-left: 10rem;
+        }
+        #header .header .header-1 {
+            width: 57%;
+          
+            margin-left: 18rem;
+        }
+        #header .header .header-1 {
+            font-size: 2.6rem;
+        }
+        #header .header .header-1 p {
+            width: 100%;
+            margin-left: 2rem;
+        }
+        #header .header .header-2 {
+            margin-left: 4rem;
+            margin-top: -6rem;
+        }
+        #header .header .header-2 .header-2-btn .form {
+            width: 65rem;
+        }
+        #header .header .header-2 .header-2-btn .form input {
+            width: 63rem;
+        }
+        #header .header .header-1 .star-lock {
+            margin-left: -7rem;
+        }
+        #header .header .header-1 .star-lock .five-star {
+            width: 80%;
+        }
+        #header .header .header-2 .btn-get {
+            width: 80%;
+        }
+        #header .header .header-1 .star-lock .lock {
+            margin-top: -3rem;
+        }
+        .card {
+            width: 45rem;
+            height: 40rem;
+        }
+        #trusted .trusted .trusted-bottom .trustd-bottom-con .truste-con a {
+            width: 30rem;
+        }
+        #trans-curren .trans-curren .curren-left {
+            position: absolute;
+            top: 880rem;
+        }
+        .circle {
+            top: 390rem;
+        }
+        .circle-1 {
+            top: 736rem;
+        }
+        #people .people .people-test .people-test-ej .people-container {
+            width: 60rem;
+        }
+        #trusted .trusted .trusted-bottom p {
+            text-align: start;
+            font-size: 1.9rem;
+            margin-left: 1rem;
+        }
+        #testi .testi .testi-sp .econ h3 {
+            margin-left: 50rem;
+        }
+    }
+    
+    @media screen and (min-width: 822px) and (max-width: 889px) {
+        html {
+            font-size: 50%;
+        }
+        #header .header .header-1 {
+            width: 60%;
+        }
+        #header .header .header-1 p {
+            margin-left: 1rem;
+        }
+        #header .header .header-2 .header-2-btn .form {
+            width: 64rem;
+        }
+        #header .header .header-2 .header-2-btn .form input {
+            width: 62rem;
+        }
+        #header .header .header-2 .btn-get {
+            width: 81%;
+        }
+        #header .header .header-1 .star-lock {
+            margin-left: -1rem;
+        }
+        #header .header .header-1 .star-lock .star {
+            margin-left: -8rem;
+        }
+        #header .header .header-1 .star-lock .star-content {
+            text-align: center;
+        }
+        #header .header .header-1 .star-lock .lock {
+            margin-left: 15rem;
+        }
+        .card {
+            width: 45rem;
+            height: 40rem;
+        }
+        #support .support .support-right .mini {
+            width: 25rem;
+        }
+        #support .support .support-left .support-left-cont {
+            width: 85%;
+        }
+        #support .support .support-left .support-left-cont p {
+            font-size: 1.8rem;
+            line-height: 1.7;
+        }
+        #support .support .support-left .support-left-cont h2 {
+            font-size: 4.2rem;
+        }
+        .circle {
+            top: 390rem;
+            right: 22rem;
+        }
+        #trusted .trusted .trusted-bottom .trustd-bottom-con .truste-con a {
+            width: 30rem;
+        }
+        #trusted .trusted .trusted-bottom p {
+            text-align: start;
+            font-size: 1.9rem;
+            margin-left: 1rem;
+        }
+        #people .people .people-test .people-test-ej .people-container {
+            margin-left: 23rem;
+        }
+        .circle-1 {
+            top: 739rem;
+            left: 19rem;
+        }
+        #trans-curren .trans-curren .curren-left {
+            position: absolute;
+            top: 880rem;
+        }
+        #trusted .trusted .trusted-bottom .btn-see {
+            margin-left: 40rem;
+        }
+        #testi .testi .testi-sp .econ h3 {
+            margin-left: 45rem;
+        }
+    }
+    
+    @media screen and (min-width: 822px) and (max-width: 850px) {
+        html {
+            font-size: 50%;
+        }
+        #header .header .header-1 {
+            width: 60%;
+        }
+        #header .header .header-1 h1 {
+            font-size: 3.7rem;
+        }
+        #header .header .header-1 p {
+            margin-left: 1rem;
+            width: 100%;
+            font-size: 1.8rem;
+            line-height: 1.5;
+        }
+        #header .header .header-2 .btn-get {
+            width: 85.5%;
+        }
+        #trusted .trusted .trusted-bottom .btn-see {
+            margin-left: 37rem;
+        }
+        #trans-curren .trans-curren .curren-left .store {
+            margin-left: 24rem;
+        }
+        #trusted .trusted .trusted-bottom p {
+            text-align: center;
+            font-size: 1.9rem;
+            margin-left: 1rem;
+        }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 821px) {
+        html {
+            font-size: 50%;
+        }
+        #header .header {
+            margin-left: 5rem;
+        }
+        #header .header .header-1 {
+            width: 65%;
+            margin-left: 13rem;
+        }
+        #navbar a img {
+            width: 55%;
+        }
+        #navbar ul {
+            margin-left: -9rem;
+        }
+        #header .header .header-1 h1 {
+            font-size: 3.7rem;
+        }
+        #header .header .header-1 p {
+            margin-left: 1rem;
+            width: 100%;
+            font-size: 1.8rem;
+            line-height: 1.5;
+        }
+        #header .header .header-2 .header-2-btn .form {
+            width: 64rem;
+        }
+        #header .header .header-2 .header-2-btn .form input {
+            width: 62rem;
+        }
+        #header .header .header-2 .btn-get {
+            width: 83%;
+        }
+        #header .header .header-1 .star-lock {
+            margin-left: -3rem;
+        }
+        #header .header .header-1 .star-lock .five-star {
+            margin-left: 8rem;
+        }
+        #hidden .hidden-cont .hidden-fees .hid-fee {
+            width: 75%;
+        }
+        #hidden .hidden-cont .hidden-fees .hid-cont {
+            margin-left: 3.8rem;
+            font-size: 1.6rem;
+        }
+        .card {
+            width: 45rem;
+            height: 40rem;
+        }
+        #support .support .support-left .support-left-cont {
+            width: 100%;
+        }
+        #support .support .support-left .support-left-cont p {
+            font-size: 1.6rem
+        }
+        #support .support .support-left .support-left-cont h2 {
+            line-height: 1.5;
+        }
+        .circle {
+            top: 390rem;
+        }
+        #trusted .trusted .trusted-hp p {
+            margin-left: 20rem;
+            font-size: 1.7rem;
+            width: 60%;
+        }
+        #trusted .trusted .trusted-bottom .trustd-bottom-con .truste-con a {
+            width: 28rem;
+        }
+        #trusted .trusted .trusted-bottom p {
+            text-align: center;
+            font-size: 1.9rem;
+            margin-left: 1rem;
+        }
+        #trusted .trusted .trusted-bottom .btn-see {
+            margin-left: 35rem;
+        }
+        #testi .testi .testi-sp .econ h3 {
+            margin-left: 42rem;
+        }
+        #people .people .people-test .people-test-ej .people-container {
+            margin-left: 10rem;
+            width: 75rem;
+            height: 35rem;
+            margin-top: -18rem;
+            padding: 9rem;
+        }
+        #people .people .people-test .people-test-ej .people-container h3 {
+            font-size: 2.8rem;
+        }
+        #people .people .people-test .people-test-ej .people-container p {
+            font-size: 1.5rem;
+        }
+        .circle-1 {
+            top: 739rem;
+            left: 7rem;
+        }
+        #people .people .people-trusted .people-trusted-hp h3 {
+            font-size: 2.5rem;
+        }
+        #people .people .people-trusted .people-trusted-hp p {
+            width: 100%;
+            margin-left: 0;
+            text-align: center;
+            font-size: 1.7rem;
+        }
+        #people .people .people-trusted .people-trusted-star .people-star-con h4 {
+            font-size: 1.6rem;
+        }
+        #trans-curren .trans-curren .curren-left {
+            top: 873rem;
+        }
+        #trans-curren .trans-curren .curren-left .curren-left-cont h2 {
+            font-size: 4rem;
+            padding: 3rem 0rem;
+            line-height: 1.5;
+        }
+        #trans-curren .trans-curren .curren-left .store {
+            margin-left: 25rem;
+        }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 790px) {
+        html {
+            font-size: 50%;
+        }
+        #header .header .header-2 .btn-get {
+            width: 87%;
+        }
+        .circle-1 {
+            top: 749rem;
+        }
+        #trans-curren .trans-curren .curren-left {
+            top: 880rem;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        #header {
+            height: 140rem;
+        }
+        #header .header .header-2 .btn-get {
+            width: 89%;
+        }
+        #header .header .header-1 .star-lock {
+            bottom: -2rem;
+        }
+        #hidden .hidden-cont .container {
+            height: 50%;
+        }
+        #how-to {
+            margin-top: 0;
+        }
+        .circle {
+            top: 403rem;
+            right: 23rem;
+        }
+        .circle-1 {
+            top: 762rem;
+        }
+        #trans-curren .trans-curren .curren-left {
+            top: 899rem;
+        }
+        #trans-curren {
+            height: 70vh;
+        }
+    } 
+    */
